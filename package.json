@@ -19,7 +19,7 @@
     "three": "^0.142.0"
   },
   "scripts": {
-    "client:devserve": "esbuild src/index.jsx --target=es6 --servedir=public --bundle --sourcemap --define:process.env.NODE_ENV=\\\"development\\\" --outdir=public",
+    "go": "esbuild src/index.jsx --target=es6 --servedir=public --bundle --sourcemap --define:process.env.NODE_ENV=\\\"development\\\" --outdir=public",
     "client:dev": "esbuild src/index.jsx --target=es6 --watch --bundle --sourcemap --define:process.env.NODE_ENV=\\\"development\\\" --outdir=public",
     "client": "esbuild src/index.jsx --target=es6 --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\" --outdir=public"
   }
