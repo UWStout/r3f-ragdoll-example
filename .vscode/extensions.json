@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "Continue.continue",
+    "streetsidesoftware.code-spell-checker",
+    "vscode-icons-team.vscode-icons",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense"
+  ]
+}
